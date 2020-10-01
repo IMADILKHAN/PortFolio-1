@@ -1,0 +1,96 @@
+#portfolio-projects{
+    padding: 100px 15px;
+
+}
+
+#portfolio-projects .project-images img{
+    max-width: 500px;
+    max-height: 500px;
+    float: right;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-left: 5rem;
+    -webkit-box-shadow: -5px 0px 57px 9px rgba(47,79,79,0.39);
+    -moz-box-shadow: -5px 0px 57px 9px rgba(47,79,79,0.39);
+    box-shadow: -5px 0px 57px 9px rgba(47,79,79,0.39);
+}
+
+#portfolio-projects h1{
+    font-size: 4rem;
+    font-weight: 500;
+    font-style: italic;
+    margin-bottom: 2rem;
+    color: #2F4F4F;
+    text-align: center;
+    padding-right: 300px;
+}
+
+#portfolio-projects .info .buttons{
+    padding: 0px 0px;
+    border-radius: 10%;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+#portfolio-projects .info a{
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 3px;
+    color: white;
+    font-size: 1.2rem;
+    background: #4A777A;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+#portfolio-projects .info i{
+    font-size: 1.2rem;
+    padding-left: 10px;
+}
+#portfolio-projects p{
+    color: #838B8B;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    padding: 15px;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+#portfolio-projects .technologies{
+    color: #838B8B;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    /* margin-bottom: 1rem; */
+    margin-top: 300px;
+}
+
+#portfolio-projects .technologies h3{
+    color: #838B8B;
+    font-size: 2rem;
+    margin: 2rem 0rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#portfolio-projects .technologies .icons{
+    align-items: center;
+    margin-left: 50px;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+    right: -500px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#portfolio-projects .technologies .icons .icon img{
+    width: 100% ;
+    max-width: 100px;
+    -webkit-box-shadow: -5px 0px 12px 6px rgba(47,79,79,0.39);
+    -moz-box-shadow: -5px 0px 12px 6px rgba(47,79,79,0.39);
+    box-shadow: -5px 0px 12px 6px rgba(47,79,79,0.39);
+
+}

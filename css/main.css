@@ -1,0 +1,23 @@
+@import 'css_reset.css';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;0,700;1,400&display=swap');
+@import 'tops_section.css';
+@import "servicess.css";
+@import "potfolio-section.css";
+@import "portfolio/portfolio-projects.css";
+@import "footer.css";
+body{
+    background: rgba(214, 214, 217,0.5);
+}
+
+.concontaianer{
+    margin:0 auto;
+}
+
+@media only screen and (max-width:960px){
+    /* .container {width: 100%} */
+}
+
+/* phones */
+@media only screen and (max-width:767px){
+
+}
